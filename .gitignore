@@ -1,0 +1,21 @@
+# Virtual environment (everyone makes their own)
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# YOLO outputs (training results, saved annotated videos)
+runs/
+
+# Model weights (downloaded automatically or too large)
+*.pt
+
+# Videos and datasets (too large for Git)
+*.mp4
+*.avi
+*.mov
+datasets/
+
+# Secrets like API keys (never upload these)
+.env
